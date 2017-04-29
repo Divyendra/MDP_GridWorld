@@ -193,7 +193,7 @@ def main():
     fname = "gw2.txt"
     actions = ['L', 'U', 'R', 'D']
     mdp = MDP(actions, fname)
-    mdp.filter()
+    mdp.filter()     #1.3..Uncomment and run to get the issue in 1.2
  
     U, P = value_iteration(mdp, gamma=1)
      
